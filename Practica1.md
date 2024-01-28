@@ -9,7 +9,7 @@
 
 *remote: Enumerating objects: 6, done.:*  Git está enumerando los objetos del repositorio remoto, que en este caso son 6, y ha terminado de contarlos.
 
-*remote: Counting objects: 100% (1/1), done.: Git ha contado 100% de los objetos necesarios para la operación, que en este caso era solo 1.
+*remote: Counting objects: 100% (1/1), done.:* Git ha contado 100% de los objetos necesarios para la operación, que en este caso era solo 1.
 
 *remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5:* Git proporciona un resumen de la transferencia de objetos. "Total 6" significa que hay 6 objetos en total. "Delta 0" significa que no hay diferencias en los objetos que requieren compresión. "Reused 0" indica que no se reutilizaron objetos de transferencias previas y "pack-reused 5" indica que se han reutilizado 5 objetos de packs existentes.
 
@@ -71,7 +71,7 @@
 
 **Resumen:** Se está confirmando la adición de un submódulo llamado p1 al repositorio actual con el mensaje de commit "TU MENSAJE"
 
-### Git push
+### 5. Git push
 
 **Comando:** Se utiliza en Git para subir el contenido del repositorio local a un repositorio remoto. Esto incluye todos los commits hechos en las ramas locales que aún no se han subido al repositorio remoto. Sus funciones son:
  - Actualizar el repositorio remoto con los commits realizados en la rama actual.
@@ -88,15 +88,18 @@ Las primeras líneas de respuesta muestran el proceso de subida.
 
 **Resumen:** La salida indica que el git push se ha completado con éxito y que los cambios locales ahora están en el repositorio remoto en GitHub
 
-### Git checkout
+### 6. Git checkout
 
 **Comando:** Se utiliza  en Git para cambiar entre diferentes ramas o commits en un repositorio. También se puede usar para restaurar archivos del área de trabajo.
 
+#### 6.1 -b feature/1
 ![image](https://github.com/marianmoreno1/p1-fork/assets/123356430/fb978625-dd10-4594-b1c6-d0bb821bcc44)
 
 *-b feature/1:*  Crea una nueva rama llamada feature/1 y cambia a ella. La opción -b le indica a Git que cree la rama porque no existe previamente.
 
 *Switched to a new branch 'feature/1':* Git confirma que ha cambiado a la nueva rama que acaba de crear.
+
+#### 6.2 Main
 
 ![image](https://github.com/marianmoreno1/p1-fork/assets/123356430/652c6a5d-cf61-4a02-b5b7-2a0bfc5e28e5)
 
