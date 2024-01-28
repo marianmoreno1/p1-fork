@@ -38,7 +38,7 @@
 
 **Resumen:** Se ha ejecutado git status para ver el estado del repositorio y Git ha respondido que la rama en la que está el usuario está actualizada con el remoto, pero hay un directorio p1/ que contiene archivos que aún no están siendo rastreados por Git
 
-### 3. Git Add**
+### 3. Git Add
 
 **Comando:** Se utiliza en Git para comenzar a rastrear nuevos archivos o para marcar modificaciones en archivos existentes para incluirlos en el próximo commit.
   - Rastrear archivos nuevos: Si tienes archivos que nunca has añadido al repositorio, git add los incluirá en el área de preparación (staging area), lo que significa que Git empezará a rastrear estos archivos. ("Staging" significa que estás marcando los cambios en los archivos actuales para que sean incluidos en tu próximo "commit").
