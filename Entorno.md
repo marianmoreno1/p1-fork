@@ -4,6 +4,8 @@
 
 2. Maven
 
+   ![image](https://github.com/marianmoreno1/p1-fork/assets/123356430/7359b728-b25e-4aac-891e-4f8e07fa508f)
+
 3. Intellij y VSCode
 
 ![image](https://github.com/marianmoreno1/p1-fork/assets/123356430/79e462df-f932-4737-80f2-1f6f42a14984)
